@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "React Extension",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "css": ["static/css/main.8878cd0c.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "static/js/main.bb31d919.js",
+    "static/js/main.bb31d919.js.map",
+    
+    "static/css/main.8878cd0c.css"
+  ]
+}
